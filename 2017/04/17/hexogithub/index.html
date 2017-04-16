@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://yoursite.com/2017/04/17/hexogithub/config.jpg">
 <meta property="og:image" content="http://yoursite.com/2017/04/17/hexogithub/github.jpg">
 <meta property="og:image" content="http://yoursite.com/2017/04/17/hexogithub/success.jpg">
-<meta property="og:updated_time" content="2017-04-16T17:09:06.095Z">
+<meta property="og:updated_time" content="2017-04-16T17:12:48.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Win10搭建Hexo个人博客">
 <meta name="twitter:description" content="部署Hexo 安装node.js、git，配置git环境变量，可百度 创建一个目录用于存放博客相关文件 进入创建的目录，右键以管理员身份运行git bash,执行npm install hexo-cli -g，我输入npm install hexo -g会报错，无法安装，提示hexo不再维护 好像最新版的node.js已经自带npm，安装node.js的时候已经装了npm，但是为了保险还是执行一下">
@@ -58,9 +58,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -103,13 +103,13 @@
 <li>输入如下指令（邮箱就是注册github时候的邮箱）后回车：<br><br>ssh-keygen -t rsa -C “xxxxxx@sina.cn” <br><br>然后提示输入passphrase(我没输入，如果输入的话，要记得，到时候要用)<br><br>然后输入1.ssh-agent -s，2.ssh-add ~/.sh/id_rsa，回车后我这里出错了，若出错，则输入如下命令：<br><br>eval ‘ssh-agent -s’<br><br>ssh-add<br></li>
 <li>接着添加SSH Keys到你的github账户，输入如下命令，拷贝C盘用户目录下的.ssh文件夹下的id_rsa.pub</li>
 <li>进入github settings，点击SSH and GPG Keys，New SSH key，设置title，将刚才拷贝的内容粘贴到key中，点击Add SSH key即可</li>
-<li>输入ssh -T git@github.com<br><br>可能会有警告，不用管，输入yes就行<h2 id="完成部署"><a href="#完成部署" class="headerlink" title="完成部署"></a>完成部署</h2>依次键入命令：<br><br>hexo generate<br><br>hexo deploy<br><br>OK!到此博客已搭建完成，浏览器中输入(当然是你的用户名):<br><br><a href="https://godwhisper.github.io/" target="_blank" rel="external">https://godwhisper.github.io/</a><br><br>我的如下所示：<br><br><img src="/2017/04/17/hexogithub/github.jpg" width="80%" height="300"><br><br>每次修改本地文件后，都要在最初创建的目录下执行:<br><br>hexo generate<br><br>hexo deploy<br><br>成功之后如下所示：<br><br><img src="/2017/04/17/hexogithub/success.jpg" width="80%" height="150"><h2 id="至此，hexo博客搭建成功"><a href="#至此，hexo博客搭建成功" class="headerlink" title="至此，hexo博客搭建成功"></a>至此，hexo博客搭建成功</h2></li>
+<li>输入ssh -T git@github.com<br><br>可能会有警告，不用管，输入yes就行<h2 id="完成部署"><a href="#完成部署" class="headerlink" title="完成部署"></a>完成部署</h2>依次键入命令：<br><br>hexo generate<br><br>hexo deploy<br><br>OK!到此博客已搭建完成，浏览器中输入(当然是你的用户名):<br><br><a href="https://godwhisper.github.io/" target="_blank" rel="external">https://godwhisper.github.io/</a><br><br>我的如下所示：<br><br><img src="/2017/04/17/hexogithub/github.jpg" width="80%" height="300"><br><br>每次修改本地文件后，都要在最初创建的目录下执行:<br><br>hexo generate<br><br>hexo deploy<br><br>成功之后如下所示：<br><br><img src="/2017/04/17/hexogithub/success.jpg" width="80%" height="80"><h2 id="至此，hexo博客搭建成功"><a href="#至此，hexo博客搭建成功" class="headerlink" title="至此，hexo博客搭建成功"></a>至此，hexo博客搭建成功</h2></li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/17/hexogithub/" data-id="cj1ky51hs0001kovp5t0w3gr6" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/04/17/hexogithub/" data-id="cj1ky9nm90000ewvpve23dp4g" class="article-share-link">Share</a>
       
       
     </footer>
@@ -119,7 +119,7 @@
 <nav id="article-nav">
   
     <a href="/2017/04/16/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Récent</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           Hello World
@@ -157,7 +157,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -182,7 +182,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
